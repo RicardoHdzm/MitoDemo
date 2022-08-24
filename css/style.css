@@ -125,6 +125,7 @@ h2{
   opacity: 0;
   transition: .5s ease;
   background-color: #000000;
+cursor: pointer;
 }
 
 .img-mrg:hover .overlay {
