@@ -1,10 +1,12 @@
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 body{
 	font-family: 'Noto Serif', serif;
   background-color: #010101;
+  max-width: 100%;
 }
 
 .dropdown-menu{
@@ -162,6 +164,7 @@ h2{
   color: white;
   text-align: center;
   padding-bottom: 5rem;
+  height: auto;
 }
 
 .events{
@@ -218,3 +221,142 @@ h2{
     margin-top: 0;
   }
 }
+
+.about2{
+  background-image: url("../img/space.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  padding-bottom: 5rem;
+
+}
+
+.oasis{
+  width: 100%;
+  float:right;
+
+}
+
+.nube1{
+  width: 380px;
+  position: absolute;
+  top: 20rem;
+  left: -30%;
+  margin-top: -50px;
+  margin-left: -50px;
+  animation-name: example1;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  transition-delay: 0ms;
+  transition: opacity 400ms;
+  animation-timing-function: linear;
+  overflow: hidden;
+
+
+}
+
+.nube2{
+  width: 400px;
+  position: absolute;
+  top: 40rem;
+  left: -50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  animation-name: example1;
+  animation-duration: 70s;  
+  animation-iteration-count: infinite;
+  transition-delay: 0ms;
+  transition: opacity 400ms;
+  animation-timing-function: linear;
+  overflow: hidden;
+
+}
+
+.nube3{
+  width: 400px;
+  position: absolute;
+  top: 30rem;
+  left: -70%;
+  margin-top: -50px;
+  margin-left: -50px;
+  animation-name: example4;
+  animation-duration: 80s;  
+  animation-iteration-count: infinite;
+  transition-delay: 0ms;
+  transition: opacity 400ms;
+  animation-timing-function: linear;
+  overflow: hidden;
+}
+
+.nube4{
+  width: 300px;
+  position: absolute;
+  top: 50rem;
+  left: -20%;
+  margin-top: -50px;
+  margin-left: -50px;
+  animation-name: example3;
+  animation-duration: 35s;  
+  animation-iteration-count: infinite;
+  transition-delay: 0ms;
+  transition: opacity 400ms;
+  animation-timing-function: linear;
+  overflow: hidden;
+}
+
+.planeta1{
+  width: 20%;
+  position: absolute;
+  top: 40rem;
+  left: 10%;
+  margin-top: -40px;
+  margin-left: -50px;
+  opacity: 40%;
+  overflow: hidden;
+
+
+}
+
+.planeta2{
+  width: 20%;
+  position: absolute;
+  top: 30rem;
+  left: 80%;
+  margin-top: -50px;
+  margin-left: -50px;
+  opacity: 40%;
+  overflow: hidden;
+
+}
+
+/* The animation code */
+@keyframes example1 {
+  100% {left:120%;}
+
+}
+
+@keyframes example2 {
+  100% {left:130%;}
+
+}
+
+@keyframes example3 {
+  100% {left:110%;}
+
+}
+
+@keyframes example4 {
+  100% {left:140%;}
+
+}
+
+.title{
+  width: 70%;
+  filter: brightness(0) invert(1);
+}
+
+
+/* The element to apply the animation to */
