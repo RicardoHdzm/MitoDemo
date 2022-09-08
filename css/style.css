@@ -8,6 +8,18 @@ body{
   background-color: #010101;
   max-width: 100%;
   color: #D6B379;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .dropdown-menu{
