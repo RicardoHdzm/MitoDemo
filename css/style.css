@@ -7,6 +7,7 @@ body{
 	font-family: 'Noto Serif', serif;
   background-color: #010101;
   max-width: 100%;
+  color: #D6B379;
 }
 
 .dropdown-menu{
@@ -20,19 +21,24 @@ body{
 
 h1{
 	font-family: 'Noto Serif', serif;
-	color: white;
+	color: #D6B379;
 	font-size: 20px;
 }
 
 h2{
   font-family: 'Noto Serif', serif;
-  color: white;
+  color: #D6B379;
   font-size: x-large;
 }
 
 .logo{
 	text-align: center;
 	width: 50%;
+}
+
+.logo2{
+  text-align: center;
+  width: 30%;
 }
 
 .footerLogo{
@@ -91,30 +97,104 @@ h2{
   padding-right:20px;
 }
 
+.nav-link{
+  color: #b5945e !important;
+}
 
-.menu{
+
+.gallery{
   position: relative;
   font-family: 'Noto Sans', sans-serif;
   background-color: #010101;
-  color: white;
+  color: #D6B379;
   font-size: x-small;
   height: fit-content;
   text-align: center;
 }
+
+ .modal-open{  
+  overflow: auto; 
+  padding-right: 0px !important;
+}
+
+.menu{
+  position: relative;
+  font-family: 'Noto Sans', sans-serif;
+  background-image: url("../img/menu-bg.jpg");
+  background-attachment: fixed;
+  background-color: #010101;
+  color: black;
+  height: fit-content;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+h4{
+  font-family: 'Noto Serif', serif;
+  font-size: x-large;
+  color: #D6B379;
+  font-weight: bold;
+}
+
+.img-menu{
+  width: 80%;
+  border-radius: 10px;
+}
+
+.thumbnail-menu{
+  width: 70%;
+}
+
+.menu-item{
+  cursor: pointer;
+}
+
+.text-menu{
+  text-align: left;
+}
+
+.box {
+    padding: 0 20px 20px 20px;
+}
+
+.box .inner {
+    background-color: rgb(0, 0, 0, .5);
+    border: solid;
+    border-width: thin;
+    border-color: #D6B379;
+  }
+
+.modal-content{
+  background-color: rgb(0, 0, 0, 0.9);
+  color: #D6B379;
+  border-radius: 20px;
+  margin-top: 5rem;
+  border: solid;
+  border-width: thin;
+  border-color: #D6B379;
+}
+
+.modal-content > h1{
+  color: #D6B379;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
 
 .footer{
   position: relative;
   margin-top: 1rem;
   font-family: 'Noto Sans', sans-serif;
   background-color: #010101;
-  color: white;
+  color: #D6B379;
   font-size:  x-small;
   height: fit-content;
   text-align: center;
 }
 
 
-.img-menu{
+.img-gallery{
   display: block;
   width: 100%;
   height: auto;
@@ -146,7 +226,7 @@ h2{
 }
 
 .text {
-  color: white;
+  color: #D6B379;
   font-size: medium;
   position: absolute;
   top: 50%;
@@ -161,7 +241,7 @@ h2{
   background-image: url("../img/about-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #D6B379;
   text-align: center;
   padding-bottom: 5rem;
   height: auto;
@@ -171,7 +251,7 @@ h2{
   background-image: url("../img/events-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #D6B379;
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -198,19 +278,18 @@ h2{
 }
 
 .btn-gold{
-  background-color: whitesmoke;
+  background-color: #D6B379;
   border-radius: 0;
   font-size: large;
 }
 
 .btn-gold:hover{
-  background-color: lightgray;
+  background-color:  #b5945e;
   border-radius: 0;
   font-size: large;
 }
 
 .social{
-  filter: invert(100%);
   cursor: pointer;
   width: 25px;
   margin-top: 5px;
@@ -355,7 +434,6 @@ h2{
 
 .title{
   width: 70%;
-  filter: brightness(0) invert(1);
 }
 
 
