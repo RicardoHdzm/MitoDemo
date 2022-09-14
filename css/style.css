@@ -45,7 +45,7 @@ h2{
 
 .logo{
 	text-align: center;
-	width: 50%;
+	width: 30%;
 }
 
 .logo2{
@@ -74,7 +74,7 @@ h2{
     height: 100%;
     position: relative;
     margin-top: -5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .video-container video {
@@ -322,13 +322,12 @@ h4{
   color: white;
   text-align: center;
   padding-bottom: 5rem;
+  z-index: -1;
 
 }
 
 .oasis{
-  width: 100%;
-  float:right;
-
+  width: 80%;
 }
 
 .nube1{
@@ -345,6 +344,7 @@ h4{
   transition: opacity 400ms;
   animation-timing-function: linear;
   overflow: hidden;
+  z-index: 3;
 
 
 }
@@ -363,7 +363,7 @@ h4{
   transition: opacity 400ms;
   animation-timing-function: linear;
   overflow: hidden;
-
+  z-index: 3;
 }
 
 .nube3{
@@ -405,7 +405,7 @@ h4{
   left: 10%;
   margin-top: -40px;
   margin-left: -50px;
-  opacity: 40%;
+  opacity: 70%;
   overflow: hidden;
 
 
@@ -418,10 +418,101 @@ h4{
   left: 80%;
   margin-top: -50px;
   margin-left: -50px;
-  opacity: 40%;
+  opacity: 70%;
   overflow: hidden;
 
 }
+
+.branch{
+  width: 120px;
+  position: absolute;
+  top: 0%;
+  left: 80%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  opacity: 90%;
+}
+
+.branch2{
+  width: 300px;
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  opacity: 90%;
+}
+
+.palm{
+  width: 250px;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  opacity: 90%;
+}
+
+.palm2{
+  width: 400px;
+  position: absolute;
+  top: 30%;
+  left: -10%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  opacity: 90%;
+}
+
+.palm3{
+  width: 600px;
+  position: absolute;
+  top: 40%;
+  left: 80%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  opacity: 90%;
+  z-index: 1;
+}
+
+.palm4{
+  width: 500px;
+  position: absolute;
+  top: 80%;
+  left: 65%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  opacity: 90%;
+  z-index: 1;
+}
+
+.flower{
+  width: 100px;
+  position: absolute;
+  top: 93%;
+  left: 65%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  opacity: 90%;
+}
+
+.flower2{
+  width: 100px;
+  position: absolute;
+  top: 95%;
+  left: 10%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  opacity: 90%;
+}
+
 
 /* The animation code */
 @keyframes example1 {
