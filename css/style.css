@@ -1,11 +1,11 @@
 html{
-  scroll-behavior: smooth;
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  scroll-behavior: smooth;
 }
 
 body{
 	font-family: 'Noto Serif', serif;
-  background-color: #010101;
+  background-color: black;
   max-width: 100%;
   color: #D6B379;
   animation: fadeInAnimation ease 1s;
@@ -82,11 +82,9 @@ h2{
   height: 100%;
   position: absolute;
   object-fit: cover;
-  z-index: 0;
 }
 
 .video-container .caption {
-  z-index: 1;
   position: relative;
   text-align: center;
   color: #dc0000;
@@ -203,6 +201,7 @@ h4{
   font-size:  x-small;
   height: fit-content;
   text-align: center;
+  background-color: black;
 }
 
 
@@ -212,6 +211,7 @@ h4{
   height: auto;
   transition: 0.5s ease;
   overflow: hidden;
+  z-index: 2;
 }
 
 .img-mrg{
@@ -247,16 +247,6 @@ h4{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.about{
-  background-image: url("../img/about-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #D6B379;
-  text-align: center;
-  padding-bottom: 5rem;
-  height: auto;
 }
 
 .events{
@@ -315,6 +305,7 @@ h4{
 
 .about2{
   background-image: url("../img/space-bg.png");
+  background-color: transparent;
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -322,7 +313,6 @@ h4{
   color: white;
   text-align: center;
   padding-bottom: 5rem;
-  z-index: -1;
 
 }
 
@@ -331,7 +321,7 @@ h4{
 }
 
 .nube1{
-  width: 380px;
+  width: 30%;
   position: absolute;
   top: 20rem;
   left: -30%;
@@ -345,12 +335,11 @@ h4{
   animation-timing-function: linear;
   overflow: hidden;
   z-index: 3;
-
-
+  opacity: 80%;
 }
 
 .nube2{
-  width: 400px;
+  width: 30%;
   position: absolute;
   top: 40rem;
   left: -50%;
@@ -364,12 +353,14 @@ h4{
   animation-timing-function: linear;
   overflow: hidden;
   z-index: 3;
+  opacity: 80%;
+
 }
 
 .nube3{
-  width: 400px;
+  width: 30%;
   position: absolute;
-  top: 30rem;
+  top: 60rem;
   left: -70%;
   margin-top: -50px;
   margin-left: -50px;
@@ -380,10 +371,13 @@ h4{
   transition: opacity 400ms;
   animation-timing-function: linear;
   overflow: hidden;
+  z-index: 3;
+  opacity: 80%;
+
 }
 
 .nube4{
-  width: 300px;
+  width: 30%;
   position: absolute;
   top: 50rem;
   left: -20%;
@@ -396,81 +390,84 @@ h4{
   transition: opacity 400ms;
   animation-timing-function: linear;
   overflow: hidden;
+  z-index: 3;
+  opacity: 80%;
+
 }
 
 .planeta1{
-  width: 20%;
+  width: 30%;
   position: absolute;
-  top: 40rem;
+  top: 30rem;
   left: 10%;
   margin-top: -40px;
   margin-left: -50px;
-  opacity: 70%;
+  opacity: 80%;
   overflow: hidden;
 
 
 }
 
 .planeta2{
-  width: 20%;
+  width: 15%;
   position: absolute;
-  top: 30rem;
-  left: 80%;
+  top: 20rem;
+  left: 70%;
   margin-top: -50px;
   margin-left: -50px;
-  opacity: 70%;
+  opacity: 80%;
   overflow: hidden;
 
 }
 
 .branch{
-  width: 120px;
+  width: 10%;
   position: absolute;
   top: 0%;
   left: 80%;
   margin-top: -5;
   margin-left: -50px;
   overflow: hidden;
-  opacity: 90%;
+  z-index: 3;
 }
 
 .branch2{
-  width: 300px;
+  width: 20%;
   position: absolute;
   top: 0%;
   left: 10%;
   margin-top: -5;
   margin-left: -50px;
   overflow: hidden;
-  opacity: 90%;
+  z-index: 3;
 }
 
 .palm{
-  width: 250px;
+  width: 20%;
   position: absolute;
-  top: 80%;
-  left: 15%;
+  top: 82%;
+  left: 5%;
   margin-top: -5;
   margin-left: -50px;
   overflow: hidden;
-  opacity: 90%;
+  z-index: 3;
 }
 
 .palm2{
-  width: 400px;
+  width: 30%;
   position: absolute;
   top: 30%;
-  left: -10%;
+  left: -5%;
   margin-top: -5;
   margin-left: -50px;
   overflow: hidden;
-  opacity: 90%;
+  z-index: 2;
 }
 
 .palm3{
-  width: 600px;
+  width: 30%;
   position: absolute;
-  top: 40%;
+  top: 55%;
   left: 80%;
   margin-top: -5;
   margin-left: -50px;
@@ -480,15 +477,26 @@ h4{
 }
 
 .palm4{
-  width: 500px;
+  width: 30%;
   position: absolute;
-  top: 80%;
-  left: 65%;
+  top: 85%;
+  left: 75%;
   margin-top: -5;
   margin-left: -50px;
   overflow: hidden;
   opacity: 90%;
   z-index: 1;
+}
+
+.palm5{
+  width: 20%;
+  position: absolute;
+  top: 55%;
+  left: -3%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  z-index: 2;
 }
 
 .flower{
@@ -513,6 +521,27 @@ h4{
   opacity: 90%;
 }
 
+.bf1{
+  width: 200px;
+  position: absolute;
+  top: 15rem;
+  left: 80%;
+  margin-top: -50px;
+  margin-left: -50px;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.bf2{
+  width: 200px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  margin-top: -50px;
+  margin-left: -50px;
+  overflow: hidden;
+  z-index: 2;
+}
 
 /* The animation code */
 @keyframes example1 {
@@ -534,6 +563,12 @@ h4{
   100% {left:140%;}
 
 }
+
+@keyframes example5 {
+  100% {left: -20%;}
+
+}
+
 
 .title{
   width: 70%;
