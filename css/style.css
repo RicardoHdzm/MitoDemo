@@ -46,6 +46,7 @@ h2{
 .logo{
 	text-align: center;
 	width: 30%;
+  opacity: 50%;
 }
 
 .logo2{
@@ -250,7 +251,7 @@ h4{
 }
 
 .events{
-  background-image: url("../img/events-bg.jpg");
+  background-image: url("../img/events-bg2.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: #D6B379;
@@ -318,6 +319,7 @@ h4{
 
 .oasis{
   width: 80%;
+  z-index: 3;
 }
 
 .nube1{
@@ -402,10 +404,7 @@ h4{
   left: 10%;
   margin-top: -40px;
   margin-left: -50px;
-  opacity: 80%;
   overflow: hidden;
-
-
 }
 
 .planeta2{
@@ -415,7 +414,16 @@ h4{
   left: 70%;
   margin-top: -50px;
   margin-left: -50px;
-  opacity: 80%;
+  overflow: hidden;
+}
+
+.planeta3{
+  width: 80%;
+  position: absolute;
+  top: 50rem;
+  left: 60%;
+  margin-top: -50px;
+  margin-left: -50px;
   overflow: hidden;
 
 }
@@ -464,6 +472,18 @@ h4{
   z-index: 2;
 }
 
+.palm6{
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  left: 85%;
+  margin-top: -5;
+  margin-left: -50px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+
 .palm3{
   width: 30%;
   position: absolute;
@@ -494,50 +514,6 @@ h4{
   top: 55%;
   left: -3%;
   margin-top: -5;
-  margin-left: -50px;
-  overflow: hidden;
-  z-index: 2;
-}
-
-.flower{
-  width: 100px;
-  position: absolute;
-  top: 93%;
-  left: 65%;
-  margin-top: -5;
-  margin-left: -50px;
-  overflow: hidden;
-  opacity: 90%;
-}
-
-.flower2{
-  width: 100px;
-  position: absolute;
-  top: 95%;
-  left: 10%;
-  margin-top: -5;
-  margin-left: -50px;
-  overflow: hidden;
-  opacity: 90%;
-}
-
-.bf1{
-  width: 200px;
-  position: absolute;
-  top: 15rem;
-  left: 80%;
-  margin-top: -50px;
-  margin-left: -50px;
-  overflow: hidden;
-  z-index: 3;
-}
-
-.bf2{
-  width: 200px;
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  margin-top: -50px;
   margin-left: -50px;
   overflow: hidden;
   z-index: 2;
